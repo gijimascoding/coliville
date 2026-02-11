@@ -8,7 +8,7 @@ export default function Footer() {
 
   const exploreLinks = [
     { label: t("locations"), href: "/locations" as const },
-    { label: t("bookNow"), href: "/book" as const },
+    { label: t("applyNow"), href: "/apply" as const },
     { label: t("scheduleTour"), href: "/tour" as const },
   ];
 

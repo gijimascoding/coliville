@@ -80,10 +80,10 @@ export default function Navbar() {
                 {t("scheduleTour")}
               </Link>
               <Link
-                href="/book"
+                href="/apply"
                 className="rounded-full bg-primary px-5 py-2.5 text-sm font-medium text-white transition-all duration-200 hover:bg-primary-dark"
               >
-                {t("bookNow")}
+                {t("applyNow")}
               </Link>
             </div>
           </div>
@@ -171,11 +171,11 @@ export default function Navbar() {
               {t("scheduleTour")}
             </Link>
             <Link
-              href="/book"
+              href="/apply"
               onClick={() => setMobileMenuOpen(false)}
               className="rounded-full bg-primary px-5 py-3 text-center text-base font-medium text-white transition-all duration-200 hover:bg-primary-dark"
             >
-              {t("bookNow")}
+              {t("applyNow")}
             </Link>
           </div>
         </div>

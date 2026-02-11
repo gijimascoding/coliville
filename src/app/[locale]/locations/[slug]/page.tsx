@@ -178,10 +178,10 @@ export default async function PropertyDetailPage({
           </p>
           <div className="flex flex-col gap-4 sm:flex-row">
             <Link
-              href={{ pathname: "/book", query: { property: property.slug, room: property.rooms[0].id } }}
+              href={{ pathname: "/apply", query: { property: property.slug, room: property.rooms[0].id } }}
               className="inline-flex items-center justify-center rounded-full bg-primary px-8 py-3.5 text-base font-semibold text-white shadow-lg transition-all hover:bg-primary-dark hover:shadow-xl"
             >
-              {t("bookNow")}
+              {t("applyNow")}
             </Link>
             <Link
               href="/tour"
@@ -212,7 +212,7 @@ function RoomCard({
   const bathLabel = locale === "fr" ? "Salle de bain" : "Bath";
   const bathsLabel = locale === "fr" ? "Salles de bain" : "Baths";
   const tourLabel = locale === "fr" ? "Visite" : "Tour";
-  const bookLabel = locale === "fr" ? "Réserver" : "Book Now";
+  const applyLabel = locale === "fr" ? "Postuler" : "Apply Now";
 
   return (
     <div className="group overflow-hidden rounded-2xl border border-border-light bg-card-bg shadow-sm transition-all hover:shadow-lg">
@@ -249,10 +249,10 @@ function RoomCard({
         )}
         <div className="mt-1 flex gap-3">
           <Link
-            href={{ pathname: "/book", query: { property: propertySlug, room: room.id } }}
+            href={{ pathname: "/apply", query: { property: propertySlug, room: room.id } }}
             className="flex-1 rounded-full bg-primary px-4 py-2.5 text-center text-sm font-semibold text-white transition-colors hover:bg-primary-dark"
           >
-            {bookLabel}
+            {applyLabel}
           </Link>
           <Link
             href="/tour"
