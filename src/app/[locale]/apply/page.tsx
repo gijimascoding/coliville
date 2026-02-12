@@ -78,40 +78,22 @@ function ApplyPageContent() {
     setError("");
 
     try {
-      const response = await fetch("https://formsubmit.co/ajax/info@coliville.com", {
+      const response = await fetch("/api/send-application", {
         method: "POST",
         headers: {
           "Content-Type": "application/json",
-          Accept: "application/json",
         },
-        body: JSON.stringify({
-          _subject: `New Application - ${form.property || "General"} - ${form.fullName}`,
-          _replyto: form.email,
-          _template: "table",
-          "Full Name": form.fullName,
-          Email: form.email,
-          Phone: form.phone,
-          "Date of Birth": form.dateOfBirth,
-          Property: form.property || "Not specified",
-          "Room Type": form.roomType || "Not specified",
-          "Desired Move-in Date": form.moveInDate,
-          "Lease Duration": form.leaseDuration,
-          Occupation: form.occupation,
-          "School/Company": form.occupationDetail || "Not provided",
-          "About / Why Coliving": form.aboutYou,
-          "Emergency Contact Name": form.emergencyName || "Not provided",
-          "Emergency Contact Phone": form.emergencyPhone || "Not provided",
-          "How They Heard About Us": form.howHeard || "Not provided",
-        }),
+        body: JSON.stringify(form),
       });
 
       const data = await response.json();
       if (data.success) {
         setSubmitted(true);
       } else {
-        setError(t("submitError"));
+        setError(data.message || t("submitError"));
       }
-    } catch {
+    } catch (error) {
+      console.error("Error submitting application:", error);
       setError(t("submitError"));
     } finally {
       setSubmitting(false);

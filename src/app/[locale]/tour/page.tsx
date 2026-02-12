@@ -7,6 +7,8 @@ import { properties } from "@/data/properties";
 
 export default function TourPage() {
   const [submitted, setSubmitted] = useState(false);
+  const [submitting, setSubmitting] = useState(false);
+  const [error, setError] = useState("");
   const t = useTranslations("tour");
   const [form, setForm] = useState({
     firstName: "",
@@ -27,9 +29,33 @@ export default function TourPage() {
     setForm({ ...form, [e.target.name]: e.target.value });
   }
 
-  function handleSubmit(e: React.FormEvent) {
+  async function handleSubmit(e: React.FormEvent) {
     e.preventDefault();
-    setSubmitted(true);
+    setSubmitting(true);
+    setError("");
+
+    try {
+      const response = await fetch("/api/send-tour-request", {
+        method: "POST",
+        headers: {
+          "Content-Type": "application/json",
+        },
+        body: JSON.stringify(form),
+      });
+
+      const data = await response.json();
+
+      if (data.success) {
+        setSubmitted(true);
+      } else {
+        setError(data.message || "Failed to send tour request. Please try again.");
+      }
+    } catch (error) {
+      console.error("Error submitting tour request:", error);
+      setError("Failed to send tour request. Please try again.");
+    } finally {
+      setSubmitting(false);
+    }
   }
 
   if (submitted) {
@@ -198,9 +224,20 @@ export default function TourPage() {
                 />
               </div>
 
+              {/* Error message */}
+              {error && (
+                <div className="rounded-xl border border-red-200 bg-red-50 px-4 py-3 text-sm text-red-600">
+                  {error}
+                </div>
+              )}
+
               {/* Submit */}
-              <button type="submit" className="w-full rounded-xl bg-[#5B6BF0] py-3.5 text-white font-semibold text-lg hover:bg-[#4455D4] active:scale-[0.98] transition-all">
-                {t("submit")}
+              <button
+                type="submit"
+                disabled={submitting}
+                className="w-full rounded-xl bg-[#5B6BF0] py-3.5 text-white font-semibold text-lg hover:bg-[#4455D4] active:scale-[0.98] transition-all disabled:opacity-60 disabled:cursor-not-allowed"
+              >
+                {submitting ? "Sending..." : t("submit")}
               </button>
             </form>
           </div>
