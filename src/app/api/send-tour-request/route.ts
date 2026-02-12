@@ -15,6 +15,28 @@ export async function POST(request: NextRequest) {
       );
     }
 
+    // Check if SMTP is configured
+    if (
+      !process.env.SMTP_HOST ||
+      !process.env.SMTP_USER ||
+      !process.env.SMTP_PASSWORD ||
+      process.env.SMTP_HOST === "your-smtp-server.com" ||
+      process.env.SMTP_HOST.includes("your-") ||
+      process.env.SMTP_PASSWORD === "your-smtp-password"
+    ) {
+      console.error("SMTP not configured. Please update .env.local with your SMTP credentials.");
+      console.log("Tour request received from:", firstName, lastName, email);
+      console.log("Form data:", JSON.stringify(body, null, 2));
+
+      return NextResponse.json(
+        {
+          success: false,
+          message: "Email service not configured. Please contact the administrator.",
+        },
+        { status: 503 }
+      );
+    }
+
     // Create transporter
     const transporter = nodemailer.createTransport({
       host: process.env.SMTP_HOST,

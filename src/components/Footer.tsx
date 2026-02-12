@@ -21,7 +21,7 @@ export default function Footer() {
   const connectLinks = [
     { label: "Instagram", href: "https://instagram.com" },
     { label: "TikTok", href: "https://tiktok.com" },
-    { label: "Email", href: "mailto:hello@coliville.com" },
+    { label: "Email", href: "mailto:info@coliville.com" },
   ];
 
   return (

@@ -292,8 +292,8 @@ export default function TourPage() {
               </div>
               <p className="text-gray-600 leading-relaxed">
                 {t("reachUs")}{" "}
-                <a href="mailto:hello@coliville.com" className="text-[#5B6BF0] font-medium hover:underline">
-                  hello@coliville.com
+                <a href="mailto:info@coliville.com" className="text-[#5B6BF0] font-medium hover:underline">
+                  info@coliville.com
                 </a>
               </p>
             </div>
