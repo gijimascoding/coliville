@@ -46,6 +46,14 @@ export default function TourPage() {
       const data = await response.json();
 
       if (data.success) {
+        // Fire Google Ads conversion event for tour request
+        if (typeof window !== "undefined" && typeof (window as any).gtag === "function") {
+          (window as any).gtag("event", "conversion", {
+            send_to: "AW-17953956338/tour_request",
+            value: 0.5,
+            currency: "CAD",
+          });
+        }
         setSubmitted(true);
       } else {
         setError(data.message || "Failed to send tour request. Please try again.");

@@ -88,6 +88,14 @@ function ApplyPageContent() {
 
       const data = await response.json();
       if (data.success) {
+        // Fire Google Ads conversion event
+        if (typeof window !== "undefined" && typeof (window as any).gtag === "function") {
+          (window as any).gtag("event", "conversion", {
+            send_to: "AW-17953956338/submit_lead_form",
+            value: 1.0,
+            currency: "CAD",
+          });
+        }
         setSubmitted(true);
       } else {
         setError(data.message || t("submitError"));
