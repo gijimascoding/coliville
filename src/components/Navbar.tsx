@@ -62,6 +62,12 @@ export default function Navbar() {
               >
                 {t("locations")}
               </Link>
+              <Link
+                href="/blog"
+                className="text-sm font-medium text-text-secondary transition-colors duration-200 hover:text-secondary"
+              >
+                {t("blog")}
+              </Link>
               <a
                 href="/#about"
                 className="text-sm font-medium text-text-secondary transition-colors duration-200 hover:text-secondary"
@@ -148,6 +154,13 @@ export default function Navbar() {
               className="rounded-lg px-4 py-3 text-lg font-medium text-secondary transition-colors duration-200 hover:bg-background"
             >
               {t("locations")}
+            </Link>
+            <Link
+              href="/blog"
+              onClick={() => setMobileMenuOpen(false)}
+              className="rounded-lg px-4 py-3 text-lg font-medium text-secondary transition-colors duration-200 hover:bg-background"
+            >
+              {t("blog")}
             </Link>
             <a
               href="/#about"

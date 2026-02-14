@@ -2,6 +2,7 @@
   "nav": {
     "locations": "Locations",
     "about": "About",
+    "blog": "Blog",
     "scheduleTour": "Schedule a Tour",
     "applyNow": "Apply Now"
   },
@@ -163,6 +164,17 @@
     "virtualTour": "We also offer virtual tours via video call. Just mention it in the form!",
     "questions": "Questions?",
     "reachUs": "Reach us at"
+  },
+  "blog": {
+    "title": "Blog",
+    "subtitle": "Tips, guides, and insights about co-living in Montreal.",
+    "readMore": "Read more",
+    "minRead": "{count} min read",
+    "backToBlog": "Back to blog",
+    "applyNow": "Apply Now",
+    "ctaTitle": "Ready to make your move?",
+    "ctaSubtitle": "Furnished rooms from $680/month. Utilities included. Flexible leases.",
+    "noPosts": "No posts yet. Check back soon!"
   },
   "footer": {
     "tagline": "Modern coliving for a new generation.",

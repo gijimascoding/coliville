@@ -15,7 +15,6 @@ export default function Footer() {
   const companyLinks = [
     { label: t("about"), href: "#" },
     { label: t("contact"), href: "#" },
-    { label: t("blog"), href: "#" },
   ];
 
   const connectLinks = [
@@ -74,6 +73,14 @@ export default function Footer() {
                   </a>
                 </li>
               ))}
+              <li>
+                <Link
+                  href="/blog"
+                  className="text-sm text-gray-300 transition-colors hover:text-white"
+                >
+                  {t("blog")}
+                </Link>
+              </li>
             </ul>
           </div>
 

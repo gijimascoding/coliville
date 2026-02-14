@@ -2,6 +2,7 @@
   "nav": {
     "locations": "Lieux",
     "about": "À propos",
+    "blog": "Blogue",
     "scheduleTour": "Planifier une visite",
     "applyNow": "Postuler"
   },
@@ -163,6 +164,17 @@
     "virtualTour": "Nous offrons aussi des visites virtuelles par appel vidéo. Mentionnez-le dans le formulaire!",
     "questions": "Questions?",
     "reachUs": "Contactez-nous à"
+  },
+  "blog": {
+    "title": "Blogue",
+    "subtitle": "Conseils, guides et informations sur le coliving à Montréal.",
+    "readMore": "Lire la suite",
+    "minRead": "{count} min de lecture",
+    "backToBlog": "Retour au blogue",
+    "applyNow": "Postuler",
+    "ctaTitle": "Prêt à faire le saut?",
+    "ctaSubtitle": "Chambres meublées à partir de 680$/mois. Tout inclus. Baux flexibles.",
+    "noPosts": "Aucun article pour l'instant. Revenez bientôt!"
   },
   "footer": {
     "tagline": "Coliving moderne pour une nouvelle génération.",

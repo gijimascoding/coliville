@@ -21,5 +21,13 @@ export const routing = defineRouting({
       en: "/tour",
       fr: "/visite",
     },
+    "/blog": {
+      en: "/blog",
+      fr: "/blogue",
+    },
+    "/blog/[slug]": {
+      en: "/blog/[slug]",
+      fr: "/blogue/[slug]",
+    },
   },
 });
