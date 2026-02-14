@@ -2,7 +2,7 @@
 generated_at: "2026-02-14T12:00:00Z"
 status: published
 seo_title: "Moving to Montreal: The 2026 Guide for Young People"
-meta_description: "Moving to Montreal in 2026? Get the real guide on neighborhoods, rent, transit, and housing. Private rooms from $680/mo. Apply now at Coliville."
+meta_description: "Moving to Montreal in 2026? Get the real guide on neighborhoods, rent, transit, and housing. Private rooms from $850/mo. Apply now at Coliville."
 slug: moving-to-montreal-guide
 primary_keyword: "moving to montreal"
 supporting_keywords:
@@ -23,7 +23,7 @@ So you are moving to Montreal. Maybe you got into McGill or Concordia. Maybe you
 
 This guide covers everything you actually need to know before relocating to Montreal: where to live, what it costs, how to get around, and how to skip the most common mistakes new arrivals make.
 
-**Ready to skip the housing headache entirely?** [Apply now at Coliville](https://coliville.com/apply) -- furnished private rooms starting at $680/month, utilities included.
+**Ready to skip the housing headache entirely?** [Apply now at Coliville](https://coliville.com/apply) -- furnished private rooms starting at $850/month, utilities included.
 
 ## What Montreal Actually Costs in 2026
 
@@ -36,7 +36,7 @@ Here is the honest breakdown:
 - **One-bedroom apartment (unfurnished):** Around $1,566/month
 - **Two-bedroom apartment:** Roughly $1,930/month
 - **Studio downtown:** $1,300-$1,600/month
-- **Co-living private room (Coliville):** $680-$1,100/month, furnished, utilities included
+- **Co-living private room (Coliville):** starting at $850/month, furnished, utilities included
 
 That one-bedroom number does not include wifi, electricity, furniture, or the hundreds of dollars you will spend at IKEA pretending you know how to assemble a KALLAX shelf. When you add those hidden costs, a "cheap" studio can easily run you over $2,000/month.
 
@@ -44,7 +44,7 @@ That one-bedroom number does not include wifi, electricity, furniture, or the hu
 
 A realistic monthly budget for a young person in Montreal looks like this:
 
-- **Rent:** $680-$1,600 (depending on your housing choice)
+- **Rent:** $850-$1,600 (depending on your housing choice)
 - **Groceries:** $350-$450
 - **Transit pass (STM):** $104.50 (or $62.75 with a student reduced fare)
 - **Phone plan:** $40-$60
@@ -146,7 +146,7 @@ Start at least two to three months before your move-in date. If you are moving f
 
 ## Why Coliville
 
-Moving to a new city is hard enough without adding a furniture shopping spree, a utility setup marathon, and a Kijiji roommate gamble on top of it. Coliville exists to remove all of that friction. You get a private room in a fully furnished space, with wifi, cleaning, and utilities already included in your rent -- starting at $680/month. Roommates are matched based on lifestyle and preferences, not random chance. Whether you are a McGill student, a new grad starting your first job, or someone relocating to Montreal from another province or country, Coliville gives you a home base from day one. No deposits on furniture. No six-month wait for an internet technician. Just show up, unpack, and start living.
+Moving to a new city is hard enough without adding a furniture shopping spree, a utility setup marathon, and a Kijiji roommate gamble on top of it. Coliville exists to remove all of that friction. You get a private room in a fully furnished space, with wifi, cleaning, and utilities already included in your rent -- starting at $850/month. Roommates are matched based on lifestyle and preferences, not random chance. Whether you are a McGill student, a new grad starting your first job, or someone relocating to Montreal from another province or country, Coliville gives you a home base from day one. No deposits on furniture. No six-month wait for an internet technician. Just show up, unpack, and start living.
 
 [Apply now at Coliville](https://coliville.com/apply) and make your move to Montreal the easy part.
 
