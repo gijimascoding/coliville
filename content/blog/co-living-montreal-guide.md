@@ -12,6 +12,8 @@ supporting_keywords:
   - "roommate matching montreal"
   - "affordable housing montreal young professionals"
 word_count: 1280
+featured_image: "/blog/co-living-guide.jpg"
+featured_image_alt: "Young professionals socializing together in a shared co-living space"
 published_at: "2026-02-14T16:42:14Z"
 ---
 

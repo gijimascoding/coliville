@@ -13,6 +13,8 @@ export interface BlogPost {
   supportingKeywords: string[];
   publishedAt: string;
   wordCount: number;
+  featuredImage: string;
+  featuredImageAlt: string;
   content: string; // processed HTML
 }
 
@@ -43,6 +45,8 @@ function parsePost(filePath: string): BlogPost | null {
     supportingKeywords: data.supporting_keywords || data.supportingKeywords || [],
     publishedAt: data.published_at || data.publishedAt || data.generated_at || "",
     wordCount: data.word_count || data.wordCount || 0,
+    featuredImage: data.featured_image || data.featuredImage || "",
+    featuredImageAlt: data.featured_image_alt || data.featuredImageAlt || "",
     content: html,
   };
 }

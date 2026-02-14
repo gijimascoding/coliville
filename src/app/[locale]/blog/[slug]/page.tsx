@@ -1,3 +1,4 @@
+import Image from "next/image";
 import { notFound } from "next/navigation";
 import { getTranslations, setRequestLocale } from "next-intl/server";
 import { Link } from "@/i18n/navigation";
@@ -30,6 +31,20 @@ export async function generateMetadata({
       type: "article",
       publishedTime: post.publishedAt,
       locale: locale === "fr" ? "fr_CA" : "en_CA",
+      ...(post.featuredImage
+        ? {
+            images: [
+              {
+                url: post.featuredImage.startsWith("/")
+                  ? `https://coliville.com${post.featuredImage}`
+                  : post.featuredImage,
+                width: 1200,
+                height: 630,
+                alt: post.featuredImageAlt || post.seoTitle,
+              },
+            ],
+          }
+        : {}),
     },
   };
 }
@@ -74,6 +89,13 @@ export default async function BlogPostPage({
       url: "https://coliville.com",
     },
     mainEntityOfPage: `https://coliville.com/${locale}/blog/${slug}`,
+    ...(post.featuredImage
+      ? {
+          image: post.featuredImage.startsWith("/")
+            ? `https://coliville.com${post.featuredImage}`
+            : post.featuredImage,
+        }
+      : {}),
   };
 
   const breadcrumbSchema = {
@@ -149,6 +171,24 @@ export default async function BlogPostPage({
             </p>
           </div>
         </section>
+
+        {/* ── Featured Image ── */}
+        {post.featuredImage && (
+          <section className="px-6 pb-8 sm:px-10 lg:px-20">
+            <div className="mx-auto max-w-3xl">
+              <div className="relative aspect-[16/9] w-full overflow-hidden rounded-2xl">
+                <Image
+                  src={post.featuredImage}
+                  alt={post.featuredImageAlt || post.seoTitle}
+                  fill
+                  priority
+                  className="object-cover"
+                  sizes="(max-width: 768px) 100vw, 768px"
+                />
+              </div>
+            </div>
+          </section>
+        )}
 
         {/* ── Divider ── */}
         <div className="mx-auto max-w-3xl px-6 sm:px-10 lg:px-20">

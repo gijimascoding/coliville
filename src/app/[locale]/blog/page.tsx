@@ -1,3 +1,4 @@
+import Image from "next/image";
 import { getTranslations, setRequestLocale } from "next-intl/server";
 import { Link } from "@/i18n/navigation";
 import { getAllPosts } from "@/data/blog";
@@ -66,8 +67,20 @@ export default async function BlogIndexPage({
                     }}
                     className="group flex flex-col overflow-hidden rounded-2xl border border-border-light bg-card-bg transition-all duration-300 hover:-translate-y-1 hover:shadow-lg hover:shadow-black/5"
                   >
-                    {/* Color accent bar */}
-                    <div className="h-1.5 w-full bg-gradient-to-r from-primary to-accent" />
+                    {/* Featured Image */}
+                    {post.featuredImage ? (
+                      <div className="relative aspect-[16/10] w-full overflow-hidden">
+                        <Image
+                          src={post.featuredImage}
+                          alt={post.featuredImageAlt || post.seoTitle}
+                          fill
+                          className="object-cover transition-transform duration-300 group-hover:scale-105"
+                          sizes="(max-width: 640px) 100vw, (max-width: 1024px) 50vw, 33vw"
+                        />
+                      </div>
+                    ) : (
+                      <div className="h-1.5 w-full bg-gradient-to-r from-primary to-accent" />
+                    )}
 
                     {/* Card Body */}
                     <div className="flex flex-1 flex-col gap-3 p-6">
