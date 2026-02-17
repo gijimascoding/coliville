@@ -6,7 +6,7 @@ export default function WhatsAppButton() {
   const [hovered, setHovered] = useState(false);
 
   // Placeholder WhatsApp number — will be replaced with GHL widget later
-  const whatsappNumber = "905415833015";
+  const whatsappNumber = "18578477814";
   const message = encodeURIComponent("Hi! I'm interested in Coliville coliving.");
   const whatsappUrl = `https://wa.me/${whatsappNumber}?text=${message}`;
 
