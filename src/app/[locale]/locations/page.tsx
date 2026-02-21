@@ -66,7 +66,7 @@ export default async function LocationsPage({
 
       {/* ── Property Cards Grid ── */}
       <section className="px-6 pb-24 sm:px-10 lg:px-20">
-        <div className="mx-auto grid max-w-7xl grid-cols-1 gap-8 sm:grid-cols-2 lg:grid-cols-3">
+        <div className="mx-auto grid max-w-4xl grid-cols-1 gap-8 sm:grid-cols-2">
           {properties.map((property) => {
             const lowestPrice = getLowestPrice(property);
             const roomCount = property.rooms.length;
