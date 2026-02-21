@@ -1,0 +1,148 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<urlset xmlns="http://www.sitemaps.org/schemas/sitemap/0.9"
+        xmlns:xhtml="http://www.w3.org/1999/xhtml">
+  <!-- Homepage -->
+  <url>
+    <loc>https://www.coliville.com/en</loc>
+    <xhtml:link rel="alternate" hreflang="en" href="https://www.coliville.com/en"/>
+    <xhtml:link rel="alternate" hreflang="fr" href="https://www.coliville.com/fr"/>
+    <changefreq>weekly</changefreq>
+    <priority>1.0</priority>
+  </url>
+  <url>
+    <loc>https://www.coliville.com/fr</loc>
+    <xhtml:link rel="alternate" hreflang="en" href="https://www.coliville.com/en"/>
+    <xhtml:link rel="alternate" hreflang="fr" href="https://www.coliville.com/fr"/>
+    <changefreq>weekly</changefreq>
+    <priority>1.0</priority>
+  </url>
+
+  <!-- Locations index -->
+  <url>
+    <loc>https://www.coliville.com/en/locations</loc>
+    <xhtml:link rel="alternate" hreflang="en" href="https://www.coliville.com/en/locations"/>
+    <xhtml:link rel="alternate" hreflang="fr" href="https://www.coliville.com/fr/lieux"/>
+    <changefreq>weekly</changefreq>
+    <priority>0.9</priority>
+  </url>
+  <url>
+    <loc>https://www.coliville.com/fr/lieux</loc>
+    <xhtml:link rel="alternate" hreflang="en" href="https://www.coliville.com/en/locations"/>
+    <xhtml:link rel="alternate" hreflang="fr" href="https://www.coliville.com/fr/lieux"/>
+    <changefreq>weekly</changefreq>
+    <priority>0.9</priority>
+  </url>
+
+  <!-- The Gramercy -->
+  <url>
+    <loc>https://www.coliville.com/en/locations/gramercy</loc>
+    <xhtml:link rel="alternate" hreflang="en" href="https://www.coliville.com/en/locations/gramercy"/>
+    <xhtml:link rel="alternate" hreflang="fr" href="https://www.coliville.com/fr/lieux/gramercy"/>
+    <changefreq>weekly</changefreq>
+    <priority>0.8</priority>
+  </url>
+  <url>
+    <loc>https://www.coliville.com/fr/lieux/gramercy</loc>
+    <xhtml:link rel="alternate" hreflang="en" href="https://www.coliville.com/en/locations/gramercy"/>
+    <xhtml:link rel="alternate" hreflang="fr" href="https://www.coliville.com/fr/lieux/gramercy"/>
+    <changefreq>weekly</changefreq>
+    <priority>0.8</priority>
+  </url>
+
+  <!-- The Dominik -->
+  <url>
+    <loc>https://www.coliville.com/en/locations/dominik</loc>
+    <xhtml:link rel="alternate" hreflang="en" href="https://www.coliville.com/en/locations/dominik"/>
+    <xhtml:link rel="alternate" hreflang="fr" href="https://www.coliville.com/fr/lieux/dominik"/>
+    <changefreq>weekly</changefreq>
+    <priority>0.8</priority>
+  </url>
+  <url>
+    <loc>https://www.coliville.com/fr/lieux/dominik</loc>
+    <xhtml:link rel="alternate" hreflang="en" href="https://www.coliville.com/en/locations/dominik"/>
+    <xhtml:link rel="alternate" hreflang="fr" href="https://www.coliville.com/fr/lieux/dominik"/>
+    <changefreq>weekly</changefreq>
+    <priority>0.8</priority>
+  </url>
+
+  <!-- The Sherwin -->
+  <url>
+    <loc>https://www.coliville.com/en/locations/sherwin</loc>
+    <xhtml:link rel="alternate" hreflang="en" href="https://www.coliville.com/en/locations/sherwin"/>
+    <xhtml:link rel="alternate" hreflang="fr" href="https://www.coliville.com/fr/lieux/sherwin"/>
+    <changefreq>weekly</changefreq>
+    <priority>0.8</priority>
+  </url>
+  <url>
+    <loc>https://www.coliville.com/fr/lieux/sherwin</loc>
+    <xhtml:link rel="alternate" hreflang="en" href="https://www.coliville.com/en/locations/sherwin"/>
+    <xhtml:link rel="alternate" hreflang="fr" href="https://www.coliville.com/fr/lieux/sherwin"/>
+    <changefreq>weekly</changefreq>
+    <priority>0.8</priority>
+  </url>
+
+  <!-- Apply -->
+  <url>
+    <loc>https://www.coliville.com/en/apply</loc>
+    <xhtml:link rel="alternate" hreflang="en" href="https://www.coliville.com/en/apply"/>
+    <xhtml:link rel="alternate" hreflang="fr" href="https://www.coliville.com/fr/postuler"/>
+    <changefreq>monthly</changefreq>
+    <priority>0.9</priority>
+  </url>
+  <url>
+    <loc>https://www.coliville.com/fr/postuler</loc>
+    <xhtml:link rel="alternate" hreflang="en" href="https://www.coliville.com/en/apply"/>
+    <xhtml:link rel="alternate" hreflang="fr" href="https://www.coliville.com/fr/postuler"/>
+    <changefreq>monthly</changefreq>
+    <priority>0.9</priority>
+  </url>
+
+  <!-- Tour -->
+  <url>
+    <loc>https://www.coliville.com/en/tour</loc>
+    <xhtml:link rel="alternate" hreflang="en" href="https://www.coliville.com/en/tour"/>
+    <xhtml:link rel="alternate" hreflang="fr" href="https://www.coliville.com/fr/visite"/>
+    <changefreq>monthly</changefreq>
+    <priority>0.7</priority>
+  </url>
+  <url>
+    <loc>https://www.coliville.com/fr/visite</loc>
+    <xhtml:link rel="alternate" hreflang="en" href="https://www.coliville.com/en/tour"/>
+    <xhtml:link rel="alternate" hreflang="fr" href="https://www.coliville.com/fr/visite"/>
+    <changefreq>monthly</changefreq>
+    <priority>0.7</priority>
+  </url>
+
+  <!-- Blog index -->
+  <url>
+    <loc>https://www.coliville.com/en/blog</loc>
+    <xhtml:link rel="alternate" hreflang="en" href="https://www.coliville.com/en/blog"/>
+    <xhtml:link rel="alternate" hreflang="fr" href="https://www.coliville.com/fr/blogue"/>
+    <changefreq>weekly</changefreq>
+    <priority>0.7</priority>
+  </url>
+  <url>
+    <loc>https://www.coliville.com/fr/blogue</loc>
+    <xhtml:link rel="alternate" hreflang="en" href="https://www.coliville.com/en/blog"/>
+    <xhtml:link rel="alternate" hreflang="fr" href="https://www.coliville.com/fr/blogue"/>
+    <changefreq>weekly</changefreq>
+    <priority>0.7</priority>
+  </url>
+
+  <!-- Blog posts -->
+  <url>
+    <loc>https://www.coliville.com/en/blog/co-living-montreal-guide</loc>
+    <changefreq>monthly</changefreq>
+    <priority>0.6</priority>
+  </url>
+  <url>
+    <loc>https://www.coliville.com/en/blog/co-living-vs-apartment-montreal</loc>
+    <changefreq>monthly</changefreq>
+    <priority>0.6</priority>
+  </url>
+  <url>
+    <loc>https://www.coliville.com/en/blog/moving-to-montreal-guide</loc>
+    <changefreq>monthly</changefreq>
+    <priority>0.6</priority>
+  </url>
+</urlset>

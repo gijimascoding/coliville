@@ -19,6 +19,10 @@ export async function POST(request: NextRequest) {
       emergencyName,
       emergencyPhone,
       howHeard,
+      utm_source,
+      utm_medium,
+      utm_campaign,
+      utm_content,
     } = body;
 
     // Validate required fields
@@ -200,6 +204,23 @@ export async function POST(request: NextRequest) {
               }
             </table>
           </div>
+
+          ${
+            utm_source
+              ? `
+          <!-- UTM Attribution -->
+          <div style="background-color: #fff3e0; padding: 15px; border-radius: 8px; margin: 20px 0; border-left: 3px solid #ff9800;">
+            <h4 style="margin: 0 0 8px 0; color: #e65100; font-size: 13px;">Lead Source Attribution</h4>
+            <table style="width: 100%; border-collapse: collapse; font-size: 12px;">
+              <tr><td style="padding: 4px 0; color: #666; width: 30%;"><strong>Source:</strong></td><td>${utm_source}</td></tr>
+              ${utm_medium ? `<tr><td style="padding: 4px 0; color: #666;"><strong>Medium:</strong></td><td>${utm_medium}</td></tr>` : ""}
+              ${utm_campaign ? `<tr><td style="padding: 4px 0; color: #666;"><strong>Campaign:</strong></td><td>${utm_campaign}</td></tr>` : ""}
+              ${utm_content ? `<tr><td style="padding: 4px 0; color: #666;"><strong>Content:</strong></td><td>${utm_content}</td></tr>` : ""}
+            </table>
+          </div>
+          `
+              : ""
+          }
 
           <div style="margin-top: 30px; padding-top: 20px; border-top: 2px solid #ddd; color: #999; font-size: 12px;">
             <p>This application was submitted through the Coliville website application form.</p>

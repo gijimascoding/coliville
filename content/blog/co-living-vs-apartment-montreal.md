@@ -31,7 +31,7 @@ Co-living means you get your own private room inside a shared home. You have you
 
 Think of it as the best parts of having roommates without the worst parts. No hunting for someone on Kijiji who "seems normal." No splitting hydro bills over passive-aggressive group chats. No furnishing an empty apartment from scratch.
 
-At [Coliville](https://coliville.com/locations), co-living in Montreal starts at $850/month. That includes a furnished private room, utilities, wifi, and roommate matching -- all in neighborhoods like the Plateau, Mile End, Griffintown, and Verdun.
+At [Coliville](https://coliville.com/locations), co-living in Montreal starts at $800/month. That includes a furnished private room, utilities, wifi, and roommate matching -- all in neighborhoods like the Plateau, Mile End, Griffintown, and Verdun.
 
 ## The Real Cost Breakdown: Co-Living vs Studio Apartment in Montreal
 
@@ -41,13 +41,13 @@ This is where the studio apartment Montreal cost conversation gets uncomfortable
 
 | Expense | Studio Apartment | Co-Living (Coliville) |
 |---|---|---|
-| Base rent | $1,500 - $1,700 | starting at $850 |
+| Base rent | $1,500 - $1,700 | starting at $800 |
 | Furniture (amortized) | $100 - $200 | $0 (included) |
 | Electricity / Hydro | $60 - $120 | $0 (included) |
 | Internet / Wifi | $50 - $80 | $0 (included) |
 | Renters insurance | $25 - $40 | $0 (included) |
-| Cleaning supplies | $20 - $30 | $0 (included) |
-| **Total monthly cost** | **$1,755 - $2,170** | **starting at $850** |
+| Laundry / supplies | $20 - $30 | $0 (included) |
+| **Total monthly cost** | **$1,755 - $2,170** | **starting at $800** |
 
 That is not a typo. When you compare co-living vs apartment in Montreal on a true-cost basis, you could save $700 to $1,000 every single month. Over a 12-month lease, that is $8,400 to $12,000 back in your pocket. That is a trip home for the holidays, a summer in Europe, or a serious dent in your student loans.
 
@@ -79,7 +79,7 @@ The roommate vs living alone Montreal debate has a clear answer for most young p
 
 ### Utilities and Hidden Costs
 
-Studio renters in Montreal deal with a pile of small bills that add up fast. Hydro-Quebec bills that spike in winter. Internet contracts with cancellation fees. Laundry coins. Cleaning products. Lightbulbs. A plunger you hope you never need.
+Studio renters in Montreal deal with a pile of small bills that add up fast. Hydro-Quebec bills that spike in winter. Internet contracts with cancellation fees. Laundry coins. Household supplies. Lightbulbs. A plunger you hope you never need.
 
 Co-living bundles all of that into one monthly price. No surprises, no hidden fees, no December hydro bill that makes you question every space heater decision you have ever made.
 
@@ -103,7 +103,7 @@ If three or more of those apply, stop apartment hunting and look at co-living in
 
 ### How much does co-living cost compared to a studio in Montreal?
 
-Co-living in Montreal ranges starting at $850 per month for a private furnished room with utilities and wifi included. A studio apartment in Montreal averages $1,500 to $1,700 for rent alone -- and over $1,800 once you add utilities, internet, and furnishing costs. Co-living saves most people $700 to $1,000 per month.
+Co-living in Montreal ranges starting at $800 per month for a private furnished room with utilities and wifi included. A studio apartment in Montreal averages $1,500 to $1,700 for rent alone -- and over $1,800 once you add utilities, internet, and furnishing costs. Co-living saves most people $700 to $1,000 per month.
 
 ### Do you get your own room in co-living?
 
@@ -123,7 +123,7 @@ Coliville has [rooms in some of Montreal's best neighborhoods](https://coliville
 
 ## Why Coliville
 
-Coliville was built for people between 18 and 35 who want to live well in Montreal without draining their bank account. Private rooms start at $850/month. Everything is included -- furniture, wifi, utilities, and matched roommates. No brokers, no hidden fees, no furniture shopping at 10 PM on a Tuesday.
+Coliville was built for people between 18 and 35 who want to live well in Montreal without draining their bank account. Private rooms start at $800/month. Everything is included -- furniture, wifi, utilities, and matched roommates. No brokers, no hidden fees, no furniture shopping at 10 PM on a Tuesday.
 
 You get a real home in neighborhoods like the Plateau and Mile End, surrounded by people your age who are also figuring it out. That is what affordable housing in Montreal should actually look like.
 

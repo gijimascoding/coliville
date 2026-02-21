@@ -154,3 +154,10 @@ body {
   border-radius: 0.75rem;
   margin: 1.5rem 0;
 }
+
+/* ── Landing Page Mode: hide main site chrome ── */
+body.lp-mode > div > div > nav,
+body.lp-mode > div > div > footer,
+body.lp-mode > div > div > a[aria-label="Chat on WhatsApp"] {
+  display: none !important;
+}

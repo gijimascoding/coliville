@@ -23,6 +23,12 @@ function ApplyPageContent() {
   const propertyParam = searchParams.get("property");
   const roomParam = searchParams.get("room");
 
+  // Capture UTM parameters for attribution
+  const utmSource = searchParams.get("utm_source") ?? "";
+  const utmMedium = searchParams.get("utm_medium") ?? "";
+  const utmCampaign = searchParams.get("utm_campaign") ?? "";
+  const utmContent = searchParams.get("utm_content") ?? "";
+
   // Look up pre-selected property and room
   const selectedProperty = properties.find((p) => p.slug === propertyParam || p.id === propertyParam);
   const selectedRoom = selectedProperty?.rooms.find((r) => r.id === roomParam);
@@ -83,7 +89,13 @@ function ApplyPageContent() {
         headers: {
           "Content-Type": "application/json",
         },
-        body: JSON.stringify(form),
+        body: JSON.stringify({
+          ...form,
+          utm_source: utmSource,
+          utm_medium: utmMedium,
+          utm_campaign: utmCampaign,
+          utm_content: utmContent,
+        }),
       });
 
       const data = await response.json();
@@ -354,6 +366,9 @@ function ApplyPageContent() {
                       <option value="Instagram">{t("instagram")}</option>
                       <option value="TikTok">{t("tiktok")}</option>
                       <option value="Google">{t("google")}</option>
+                      <option value="Facebook Marketplace">Facebook Marketplace</option>
+                      <option value="Kijiji">Kijiji</option>
+                      <option value="WhatsApp">WhatsApp</option>
                       <option value="Friend">{t("friend")}</option>
                       <option value="University">{t("university")}</option>
                       <option value="Other">{t("otherSource")}</option>
