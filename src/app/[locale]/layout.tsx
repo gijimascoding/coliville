@@ -59,7 +59,7 @@ export default async function LocaleLayout({
             gtag('config', 'AW-17953956338');
           `}
         </Script>
-        {/* GA4 — replace G-XXXXXXXXXX with your real Measurement ID */}
+        {/* GA4 — uncomment and replace G-XXXXXXXXXX with your real Measurement ID when ready
         <Script
           src="https://www.googletagmanager.com/gtag/js?id=G-XXXXXXXXXX"
           strategy="afterInteractive"
@@ -71,6 +71,7 @@ export default async function LocaleLayout({
             gtag('config', 'G-XXXXXXXXXX');
           `}
         </Script>
+        */}
       </head>
       <body className={`${inter.variable} antialiased bg-background`}>
         <NextIntlClientProvider messages={messages}>
