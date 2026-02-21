@@ -14,7 +14,7 @@
     "browseLocations": "Browse Locations",
     "bookTour": "Book a Tour",
     "findYourVibe": "Find your vibe",
-    "uniqueLocations": "3 unique locations across Montreal's best neighborhoods",
+    "uniqueLocations": "2 unique locations across Montreal's best neighborhoods",
     "from": "From C${price}",
     "perWeek": "/week",
     "whyColiville": "Why Coliville?",
@@ -45,7 +45,7 @@
   },
   "locations": {
     "title": "Our Locations",
-    "subtitle": "3 coliving buildings across Montreal's best neighborhoods.",
+    "subtitle": "2 coliving buildings across Montreal's best neighborhoods.",
     "allFurnished": "All furnished. All inclusive.",
     "allNeighborhoods": "All Neighborhoods",
     "from": "From C${price}/week",

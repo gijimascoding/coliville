@@ -30,27 +30,6 @@ export const propertyTranslations: Record<string, Record<string, PropertyTransla
         }
       }
     },
-    dominik: {
-      shortDescription: "Creative energy in the heart of the Latin Quarter.",
-      description: "The Dominik drops you into Montreal's creative and cultural core. The Quartier Latin is full of theatres, indie cafés, and UQAM's campus energy. It's the perfect base for anyone who thrives on urban culture and community vibes.",
-      neighborhood: "Quartier Latin / Village",
-      amenities: ["High-Speed WiFi", "Furnished", "Shared Kitchen", "Common Areas"],
-      nearbyLandmarks: ["UQAM", "Berri-UQAM Metro", "Place Émilie-Gamelin"],
-      rooms: {
-        "flex-basic-dominik": {
-          name: "Flex Basic",
-          features: ["Shared room", "Furnished", "WiFi included"]
-        },
-        "flex-balcony-dominik": {
-          name: "Flex + Balcony",
-          features: ["Private balcony", "Furnished", "WiFi included"]
-        },
-        "deluxe-dominik": {
-          name: "Deluxe Room",
-          features: ["Premium space", "Furnished", "WiFi included"]
-        }
-      }
-    },
     sherwin: {
       shortDescription: "Chill vibes in one of Montreal's most beloved residential areas.",
       description: "The Sherwin offers the most affordable rooms in our collection, set in the charming Notre-Dame-de-Grâce neighborhood. Known for its leafy streets, local pubs, and tight-knit community feel — it's the perfect spot for those who want a quieter pace without sacrificing city access.",
@@ -94,27 +73,6 @@ export const propertyTranslations: Record<string, Record<string, PropertyTransla
           features: ["Plus d'espace", "Meublé", "WiFi inclus"]
         },
         "deluxe-gramercy": {
-          name: "Deluxe Room",
-          features: ["Espace premium", "Meublé", "WiFi inclus"]
-        }
-      }
-    },
-    dominik: {
-      shortDescription: "Une énergie créative au coeur du Quartier Latin.",
-      description: "The Dominik vous plonge dans le coeur créatif et culturel de Montréal. Le Quartier Latin regorge de théâtres, de cafés indépendants et de l'énergie du campus de l'UQAM. C'est la base parfaite pour quiconque s'épanouit dans la culture urbaine et l'ambiance communautaire.",
-      neighborhood: "Quartier Latin / Village",
-      amenities: ["WiFi haute vitesse", "Meublé", "Cuisine partagée", "Espaces communs"],
-      nearbyLandmarks: ["UQAM", "Métro Berri-UQAM", "Place Émilie-Gamelin"],
-      rooms: {
-        "flex-basic-dominik": {
-          name: "Flex Basic",
-          features: ["Chambre partagée", "Meublé", "WiFi inclus"]
-        },
-        "flex-balcony-dominik": {
-          name: "Flex + Balcony",
-          features: ["Balcon privé", "Meublé", "WiFi inclus"]
-        },
-        "deluxe-dominik": {
           name: "Deluxe Room",
           features: ["Espace premium", "Meublé", "WiFi inclus"]
         }

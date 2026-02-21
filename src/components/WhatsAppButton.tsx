@@ -30,6 +30,13 @@ export default function WhatsAppButton() {
         href={whatsappUrl}
         target="_blank"
         rel="noopener noreferrer"
+        onClick={() => {
+          if (typeof window !== "undefined" && typeof (window as any).gtag === "function") {
+            (window as any).gtag("event", "conversion", {
+              send_to: "AW-17953956338/whatsapp_click",
+            });
+          }
+        }}
         onMouseEnter={() => setHovered(true)}
         onMouseLeave={() => setHovered(false)}
         onFocus={() => setHovered(true)}

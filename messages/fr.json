@@ -14,7 +14,7 @@
     "browseLocations": "Parcourir les lieux",
     "bookTour": "Planifier une visite",
     "findYourVibe": "Trouvez votre style",
-    "uniqueLocations": "3 lieux uniques dans les meilleurs quartiers de Montréal",
+    "uniqueLocations": "2 lieux uniques dans les meilleurs quartiers de Montréal",
     "from": "À partir de {price} $CA",
     "perWeek": "/semaine",
     "whyColiville": "Pourquoi Coliville?",
@@ -45,7 +45,7 @@
   },
   "locations": {
     "title": "Nos lieux",
-    "subtitle": "3 immeubles de coliving dans les meilleurs quartiers de Montréal.",
+    "subtitle": "2 immeubles de coliving dans les meilleurs quartiers de Montréal.",
     "allFurnished": "Tout meublé. Tout inclus.",
     "allNeighborhoods": "Tous les quartiers",
     "from": "À partir de {price} $CA/semaine",

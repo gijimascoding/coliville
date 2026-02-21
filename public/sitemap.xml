@@ -49,22 +49,6 @@
     <priority>0.8</priority>
   </url>
 
-  <!-- The Dominik -->
-  <url>
-    <loc>https://www.coliville.com/en/locations/dominik</loc>
-    <xhtml:link rel="alternate" hreflang="en" href="https://www.coliville.com/en/locations/dominik"/>
-    <xhtml:link rel="alternate" hreflang="fr" href="https://www.coliville.com/fr/lieux/dominik"/>
-    <changefreq>weekly</changefreq>
-    <priority>0.8</priority>
-  </url>
-  <url>
-    <loc>https://www.coliville.com/fr/lieux/dominik</loc>
-    <xhtml:link rel="alternate" hreflang="en" href="https://www.coliville.com/en/locations/dominik"/>
-    <xhtml:link rel="alternate" hreflang="fr" href="https://www.coliville.com/fr/lieux/dominik"/>
-    <changefreq>weekly</changefreq>
-    <priority>0.8</priority>
-  </url>
-
   <!-- The Sherwin -->
   <url>
     <loc>https://www.coliville.com/en/locations/sherwin</loc>
