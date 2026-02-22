@@ -1,29 +1,11 @@
-## SITELINK EXTENSIONS (Add manually in Google Ads UI or Editor)
-## Account-level sitelinks
-
-Sitelink Text,Final URL,Description Line 1,Description Line 2
-Browse Locations,https://coliville.com/en/locations,See our 2 Montreal properties,Shaughnessy Village NDG
-Apply Now,https://coliville.com/en/apply,Ready to move in?,Apply in 2 minutes online
-Schedule a Tour,https://coliville.com/en/tour,Free 30-minute guided tour,Meet current residents
-The Gramercy,https://coliville.com/en/locations/gramercy,Shaughnessy Village location,Near Concordia from $205/wk
-The Sherwin,https://coliville.com/en/locations/sherwin,NDG location - Most affordable,Near Vendome from $160/wk
-
-## CALLOUT EXTENSIONS
-All-Inclusive Pricing
-Flexible Leases
-Fully Furnished
-WiFi Included
-Weekly Cleaning
-2 Montreal Locations
-No Surprise Bills
-Move In Today
-
-## STRUCTURED SNIPPET EXTENSIONS
-Header: Neighborhoods
-Values: Shaughnessy Village, NDG
-
-Header: Types
-Values: Flex Basic, Flex Plus, Deluxe Room, Master Suite
-
-Header: Amenities
-Values: WiFi, Furnished, Cleaning, Utilities, Common Areas
+Campaign,Sitelink Text,Final URL,Description Line 1,Description Line 2
+Search - High Intent,Browse Locations,https://coliville.com/en/locations,See our 2 Montreal properties,Shaughnessy Village and NDG
+Search - High Intent,Apply Now,https://coliville.com/en/apply,Ready to move in?,Apply in 2 minutes online
+Search - High Intent,Schedule a Tour,https://coliville.com/en/tour,Free 30-minute guided tour,Meet current residents
+Search - High Intent,The Gramercy,https://coliville.com/en/locations/gramercy,Shaughnessy Village location,Near Concordia from $205/wk
+Search - High Intent,The Sherwin,https://coliville.com/en/locations/sherwin,NDG location - Most affordable,Near Vendome from $160/wk
+Search - Location Specific,Browse Locations,https://coliville.com/en/locations,See our 2 Montreal properties,Shaughnessy Village and NDG
+Search - Location Specific,Apply Now,https://coliville.com/en/apply,Ready to move in?,Apply in 2 minutes online
+Search - Location Specific,Schedule a Tour,https://coliville.com/en/tour,Free 30-minute guided tour,Meet current residents
+Search - Location Specific,The Gramercy,https://coliville.com/en/locations/gramercy,Shaughnessy Village location,Near Concordia from $205/wk
+Search - Location Specific,The Sherwin,https://coliville.com/en/locations/sherwin,NDG location - Most affordable,Near Vendome from $160/wk
