@@ -48,7 +48,7 @@ export default async function LocaleLayout({
       <head>
         {/* Google Ads Global Site Tag (gtag.js) */}
         <Script
-          src="https://www.googletagmanager.com/gtag/js?id=AW-17953956338"
+          src="https://www.googletagmanager.com/gtag/js?id=AW-17967974695"
           strategy="afterInteractive"
         />
         <Script id="google-ads-gtag" strategy="afterInteractive">
@@ -56,7 +56,7 @@ export default async function LocaleLayout({
             window.dataLayer = window.dataLayer || [];
             function gtag(){dataLayer.push(arguments);}
             gtag('js', new Date());
-            gtag('config', 'AW-17953956338');
+            gtag('config', 'AW-17967974695');
           `}
         </Script>
         {/* GA4 — uncomment and replace G-XXXXXXXXXX with your real Measurement ID when ready

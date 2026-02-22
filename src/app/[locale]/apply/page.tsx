@@ -103,7 +103,7 @@ function ApplyPageContent() {
         // Fire Google Ads conversion event
         if (typeof window !== "undefined" && typeof (window as any).gtag === "function") {
           (window as any).gtag("event", "conversion", {
-            send_to: "AW-17953956338/submit_lead_form",
+            send_to: "AW-17967974695/SLTrCIjJ5_wbEKeS5vdC",
             value: 1.0,
             currency: "CAD",
           });

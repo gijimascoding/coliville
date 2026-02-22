@@ -49,7 +49,7 @@ export default function TourPage() {
         // Fire Google Ads conversion event for tour request
         if (typeof window !== "undefined" && typeof (window as any).gtag === "function") {
           (window as any).gtag("event", "conversion", {
-            send_to: "AW-17953956338/tour_request",
+            send_to: "AW-17967974695/2W8WCIvJ5_wbEKeS5vdC",
             value: 0.5,
             currency: "CAD",
           });

@@ -33,7 +33,7 @@ export default function WhatsAppButton() {
         onClick={() => {
           if (typeof window !== "undefined" && typeof (window as any).gtag === "function") {
             (window as any).gtag("event", "conversion", {
-              send_to: "AW-17953956338/whatsapp_click",
+              send_to: "AW-17967974695/MlBTCI7J5_wbEKeS5vdC",
             });
           }
         }}
